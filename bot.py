@@ -9,7 +9,7 @@ from collections import Counter, defaultdict
 from discord.ext import commands, tasks
 
 
-TOKEN       = "порлпн"
+TOKEN       = "MTQzMTcxNTM1MDE1NTg5MDc0OQ.GWFk_V.sJj2tgG0gbINhXbP9HeWjOZR6O8MUtqswkZy4o"
 
 SFTP_HOST   = "91.218.113.132"
 
@@ -241,5 +241,6 @@ async def on_ready():
 
 
 bot.run(TOKEN)
+
 
 # ==============================================================
