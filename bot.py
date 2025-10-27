@@ -9,7 +9,8 @@ from collections import Counter, defaultdict
 from discord.ext import commands, tasks
 
 
-TOKEN       = "MTQzMTcxNTM1MDE1NTg5MDc0OQ.GWFk_V.sJj2tgG0gbINhXbP9HeWjOZR6O8MUtqswkZy4o"
+import os
+bot.run(os.getenv("TOKEN"))
 
 SFTP_HOST   = "91.218.113.132"
 
@@ -244,3 +245,4 @@ bot.run(TOKEN)
 
 
 # ==============================================================
+
