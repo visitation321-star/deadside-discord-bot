@@ -10,7 +10,7 @@ from discord.ext import commands, tasks
 
 
 import os
-bot.run(os.getenv("TOKEN"))
+bot.run(TOKEN)
 
 SFTP_HOST   = "91.218.113.132"
 
@@ -245,5 +245,6 @@ bot.run(TOKEN)
 
 
 # ==============================================================
+
 
 
